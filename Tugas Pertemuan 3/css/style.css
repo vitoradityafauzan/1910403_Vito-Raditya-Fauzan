@@ -1,0 +1,298 @@
+/*START NAVIGATION BAR*/
+#top_contact {
+	width: 100%;
+	border: 2px solid gray;
+	background-color: gray;
+	margin-bottom: 20px;
+	/*text-align: center;*/
+	overflow: hidden;
+}
+
+#top_contact ul {
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+	
+}
+
+#top_contact li {
+	float: right;
+	margin: 3px 15px 3px 0px;
+	display: block;
+	padding:  5px 5px 5px 5px;
+	background-color: red;
+}
+
+
+#round-topp {
+	border-top-left-radius: 2rem;
+	border-top-right-radius: 2rem;
+	border: 3px solid red;
+	background-color: #ED2C2C;
+}
+
+#round-topp a {
+	color: white;
+}
+
+#ling:hover {
+	display: block;
+	padding: 5px;
+	border-radius: 2rem;
+	background-color: #8C7C7C;
+}
+
+.cari {
+	float: right;
+	margin-left: 50px;
+}
+
+.cari a {
+	border-top-right-radius: 2rem;
+	border-bottom-right-radius: 2rem; 
+	display: block;
+	float: right;
+	background-color: rgba(240, 240, 240, 0.5); 
+	border: 0px; 
+	padding: 7px;
+}
+
+.cari a:hover {
+	background-color: rgba(245, 245, 245, 0.3); 
+	border: 2px solid grey;
+}
+
+.cari input {
+	border-top-left-radius: 2rem;
+	border-bottom-left-radius: 2rem; 
+	background-color: rgba(240, 240, 240, 0.5); 
+	border: 0px; padding: 5px;
+	display: block;
+	float: right;
+	padding: 7px;
+}
+
+#round-bott {
+	border-bottom-left-radius: 2rem;
+	border-bottom-right-radius: 2rem;
+	padding: 0;
+}
+
+#round-bott-slide {
+	border-bottom-left-radius: 2rem;
+	border-bottom-right-radius: 2rem;
+}
+
+.carousel-inner {
+	border-bottom-left-radius: 2rem;
+	border-bottom-right-radius: 2rem;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 2rem;
+	border-bottom-right-radius: 2rem;
+
+  }
+
+/*.carousel-caption {
+	padding: 0;
+	margin: 0;
+	float: left;*/
+}
+
+/*.carousel-caption h3 {
+	margin-bottom: 10%;
+	margin-right: 60%;
+	color: #ED2C2C;
+	font-weight: bold;
+}
+
+.carousel-caption p {
+	margin-bottom: 30%;
+	margin-right: 60%;
+	color: black;
+}*/
+/*END NAVIGATION BAR*/
+
+
+
+/*START Bagian Prestasi*/
+/*Ukuran Caption slideshow pada zoom besar*/
+#captio {
+ 	border: 0px;
+ 	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius:1.5rem ;
+	background: rgba(237, 237, 237, 0.7);
+}
+
+/*Ukuran Caption slideshow pada zoom kecil*/
+@media (min-width: 1100px) {
+    #captio {
+    	border: 0px;
+		width: 50%;
+		margin-bottom: 6rem;
+		margin-left: 25px;
+		float: left;
+		background: rgba(0, 0, 0, 0);
+	}
+}
+
+#captio p {
+	color: black;
+}
+
+#captio h3 {
+	color: #ED2C2C;
+	font-weight: bold;
+}
+
+#prestasi {
+	border-radius: 2rem;
+	border: 2px solid grey;
+	margin: 5px;
+	background-color: #ffffff;
+}
+
+#prestasi:hover {
+	border: 0px;
+	border-radius: 2rem;
+	background-image: linear-gradient(-90deg, #ED2C2C, #C81D1D);
+	color: white;
+	/*background-color: chartreuse;*/
+}
+/*END Bagian Prestasi*/
+
+
+
+/*START Bagian Kenapa*/
+/*#isi-kenapa {
+	padding: 15px;
+}*/
+
+#kenapa-card {
+	border: 3px solid red;
+	border-radius: 20px;
+}
+
+#kartu-head {
+	background-color: #ED2C2C;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	border-top-left-radius: 17px;
+	border-top-right-radius: 17px;
+}
+
+.img-kenapa {
+	margin: auto;
+	border-radius: 15px;
+	padding: 10px;
+	background-color: white;
+	width: 30%;
+}
+
+.img-kenapa img {
+	margin: auto;
+	display: block;
+}
+/*#kenapa {
+	width: 50%;
+	background-color: red;
+	border-top-right-radius: 2rem;
+	border-bottom-right-radius: 2rem;
+	height: 50px;
+}*/
+
+/*#kenapa h4 {
+	border-top-right-radius: 2rem;
+	border-bottom-right-radius: 2rem;
+	padding-top: 5px;
+	height: 50px;
+	float: right; 
+	background-color: gray; 
+	border-right-radius: 2rem; 
+	width: 95%;
+	text-align: center;
+}*/
+/*END Bagian Kenapa*/
+
+
+
+/*START Bagian Alumni*/
+.alumni-main {
+	border: 2px;
+	border-radius: 10px;
+	padding: 25px;
+}
+
+.alumni-main img {
+	margin: auto;
+	display: block;
+	height: 90%;
+	width: 25%;
+	border-radius: 2rem;
+}
+
+.alumni-main h3 {
+	text-align: center;
+}
+
+.alumni-main h5 {
+	text-align: center;
+}
+
+.alumni-main p {
+	text-align: center;
+}
+/*END Bagian Alumni*/
+
+
+
+/*START Bagian Opini*/
+#opini-head {
+	margin: auto;
+	display: block;
+	width: 95%;
+	background-color: rgba(255, 0, 0, 0.2);
+}
+
+#opini-head a {
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+#opini-head a:hover{
+	color: #ED2C2C;
+}
+
+.opini-img {
+	margin-top: 10px;
+	padding: 3px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.opini-img img {
+	width: 50%;
+	height: 50%;
+	display: block;
+	margin: auto;
+	filter: invert(30%) sepia(0%) saturate(159%) hue-rotate(245deg) brightness(102%) contrast(92%);
+}
+
+.opini-img img:hover {
+	filter: invert(28%) sepia(92%) saturate(4098%) hue-rotate(349deg) brightness(100%) contrast(87%);
+}
+/*END Bagian Opini*/
+
+
+
+/*START Bagian Berita*/
+
+/*END Bagian Berita*/
