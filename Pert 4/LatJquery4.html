@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	
+	<style>
+		.change {
+			color: #f0f;
+			font-size: 45px;
+		}
+	</style>
+</head>
+<body>
+	<p>Ich Komme Aus Deutchsland</p>
+	<button>Ubah Warna</button>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+		$('button').on('click', function() {
+			$('p').toggleClass('change')
+		})
+	</script>
+</body>
+</html>

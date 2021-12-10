@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Latihan JQuery 1</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+	<h1 id="hello">Hallo</h1>
+	<p>Hallo</p>
+	<input type="text" name="nama" id="teks">
+
+	<script>
+		$(document).ready(function() {
+			$('#hello').on('click', function()){
+				$(this).hide();
+			}
+		});
+
+		$('p').hover(function() {
+			$(this).hide();
+		});
+
+		$('#teks').focus(function() {
+			$(this).css('width', '500px');
+		});
+	</script>
+</body>
+</html>
