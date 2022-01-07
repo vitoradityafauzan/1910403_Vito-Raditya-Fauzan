@@ -1,0 +1,7 @@
+php artisan make:controllers 'nama controler'
+
+php artisan make:migration 'nama migrasi'
+
+php artisan migrate
+
+php artisan make:model 'nama model'
