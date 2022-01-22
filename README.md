@@ -3,4 +3,4 @@
 <br><br>
 Hasil :
 
-![image](https://drive.google.com/uc?export=view&id=18s-OJvaMe_5zsr6ysf2oOQvl5GQqdVaL)
+![image](https://photos.app.goo.gl/fQU95jEemq3NMMuP7)
