@@ -1,0 +1,35 @@
+/* START Class*/
+
+.head {
+	background: red;
+	font-size: 2em;
+}
+
+/* END Class*/
+/*START ID*/
+
+#add {
+	background: yellow;
+	font-size: 0.8em;
+}
+
+#event {
+	background: blue;
+	font-size: 0.9em;
+}
+
+/*END ID*/
+/*START Element*/
+
+table {
+	border: 5px solid black;
+}
+
+tr {
+	background: green;
+	font-size: 1.0em;
+	border: 3cn;
+	text-align: center;
+}
+
+/*END Element*/
